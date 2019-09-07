@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'KotlinIOS' do
+    pod 'SharedCode', :path => '../../SharedCode'
+end
